@@ -1,0 +1,78 @@
+{
+	"apiVersion": "3",
+	"name": "vk-filter-search/filter-search",
+	"title": "VK Filter Search",
+	"category": "vk-filter-search",
+	"allowedBlocks": [],
+	"editorScript": "vk-filter-search-block",
+	"editorStyle": "vk-filter-search-editor",
+	"style": "vk-filter-search-style",
+	"attributes": {
+		"TargetPostType": {
+			"type": "string",
+			"default": ""
+		},
+		"DisplayOnResult": {
+			"type": "boolean",
+			"default": false
+		},
+		"DisplayOnPosttypeArchive": {
+			"type": "string",
+			"default": "[]"
+		},
+		"FormID": {
+			"type": "string",
+			"default": null
+		},
+		"PostID": {
+			"type": "number",
+			"default": null
+		},
+		"style": {
+			"type": "object",
+			"default": {
+				"spacing": {
+					"margin": {
+						"bottom": "3rem"
+					}
+				}
+			}
+		}
+	},
+	"supports": {
+		"className": true,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"background": {
+			"backgroundImage": true,
+			"backgroundSize": true,
+			"__experimentalDefaultControls": {
+				"backgroundImage": true
+			}
+		},
+		"color": {
+			"gradients": true,
+			"heading": false,
+			"button": false,
+			"link": false,
+			"__experimentalDefaultControls": {
+				"background": true,
+				"text": false
+			}
+		},
+		"__experimentalBorder": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true,
+			"__experimentalDefaultControls": {
+				"color": true,
+				"radius": true,
+				"style": true,
+				"width": true
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"apiVersion": "3",
+	"name": "vk-filter-search/keyword-search",
+	"title": "VK Keyword Search",
+	"category": "vk-filter-search",
+	"parent": [ "vk-filter-search/filter-search" ],
+	"editorScript": "vk-filter-search-block",
+	"editorStyle": "vk-filter-search-editor",
+	"style": "vk-filter-search-style",
+	"attributes": {
+		"className": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"className": true
+	}
+}
