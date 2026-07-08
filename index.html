@@ -1312,8 +1312,6 @@
       }
       /*# sourceURL=global-styles-inline-css */
     </style>
-
-    <link rel="stylesheet" id="contact-form-7-css" href="./wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.5" type="text/css" media="all" />
     <link rel="stylesheet" id="vk-swiper-style-css" href="./wp-content/plugins/vk-blocks/vendor/vektor-inc/vk-swiper/src/assets/css/swiper-bundle.min.css?ver=11.0.2" type="text/css" media="all" />
     <link rel="stylesheet" id="vk-filter-search-style-css" href="./wp-content/plugins/vk-filter-search/inc/filter-search/package/build/style.css?ver=2.14.1.0.2.14.1.0.0.1" type="text/css" media="all" />
     <link rel="stylesheet" id="bootstrap-4-style-css" href="./wp-content/themes/lightning/_g2/library/bootstrap-4/css/bootstrap.min.css?ver=4.5.0" type="text/css" media="all" />
@@ -1600,47 +1598,7 @@
           flex: 1 1 100%;
         }
       }
-
-      /*お問い合わせページ以外のreCAPTCHAバッジを非表示にするCSS*/
-      /*注：数字を、固定ページ一覧の「お問い合わせページID」に書き換えてください*/
-      body:not(.page-id-2330) .grecaptcha-badge {
-        visibility: hidden;
-      }
-
-      /*reCAPTCHAバッジを上方向にずらすCSS*/
-      .grecaptcha-badge {
-        bottom: 100px !important;
-      }
-
-      .wpcf7 input,
-      .wpcf7 textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        font-size: 16px;
-      }
-
-      .wpcf7 textarea {
-        height: 150px;
-      }
-
-      .wpcf7-submit {
-        background-color: #0056b3;
-        color: #fff;
-        padding: 10px 20px;
-        font-size: 16px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-
-      .wpcf7-submit:hover {
-        background-color: #003d82;
-      }
-
-      a:hover {
+a:hover {
         color: #ff6f61;
       }
 
@@ -2442,7 +2400,7 @@
       </div>
 
       <div class="container sectionBox copySection text-center">
-        <p>Copyright © 広告漫画｜高月ナミ All Rights Reserved.</p><p>Powered by <a href="https://wordpress.org/">WordPress</a> &amp; <a href="https://lightning.nagoya/ja/" target="_blank" title="Free WordPress Theme Lightning"> Lightning Theme</a> by Vektor,Inc. technology.</p>
+        <p>Copyright © 広告漫画｜高月ナミ All Rights Reserved.</p>
       </div>
     </footer>
     <div id="vk-mobile-nav-menu-btn" class="vk-mobile-nav-menu-btn">MENU</div
@@ -2479,29 +2437,6 @@
       //# sourceURL=wp-i18n-js-after
       /* ]]> */
     </script>
-    <script type="text/javascript" src="./wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.5" id="swv-js"></script>
-    <script type="text/javascript" id="contact-form-7-js-translations">
-      /* <![CDATA[ */
-      (function (domain, translations) {
-        var localeData = translations.locale_data[domain] || translations.locale_data.messages;
-        localeData[""].domain = domain;
-        wp.i18n.setLocaleData(localeData, domain);
-      })("contact-form-7", { "translation-revision-date": "2025-11-30 08:12:23+0000", generator: "GlotPress\/4.0.3", domain: "messages", locale_data: { messages: { "": { domain: "messages", "plural-forms": "nplurals=1; plural=0;", lang: "ja_JP" }, "This contact form is placed in the wrong place.": ["\u3053\u306e\u30b3\u30f3\u30bf\u30af\u30c8\u30d5\u30a9\u30fc\u30e0\u306f\u9593\u9055\u3063\u305f\u4f4d\u7f6e\u306b\u7f6e\u304b\u308c\u3066\u3044\u307e\u3059\u3002"], "Error:": ["\u30a8\u30e9\u30fc:"] } }, comment: { reference: "includes\/js\/index.js" } });
-      //# sourceURL=contact-form-7-js-translations
-      /* ]]> */
-    </script>
-    <script type="text/javascript" id="contact-form-7-js-before">
-      /* <![CDATA[ */
-      var wpcf7 = {
-        api: {
-          root: "\/wp-json\/",
-          namespace: "contact-form-7\/v1",
-        },
-      };
-      //# sourceURL=contact-form-7-js-before
-      /* ]]> */
-    </script>
-    <script type="text/javascript" src="./wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.5" id="contact-form-7-js"></script>
     <script type="text/javascript" src="./wp-content/plugins/vk-blocks/vendor/vektor-inc/vk-swiper/src/assets/js/swiper-bundle.min.js?ver=11.0.2" id="vk-swiper-script-js"></script>
     <script type="text/javascript" src="./wp-content/plugins/vk-blocks/build/vk-slider.min.js?ver=1.100.0.1" id="vk-blocks-slider-js"></script>
     <script type="text/javascript" src="./wp-content/plugins/vk-filter-search/inc/filter-search/package/build/vk-filter-search-result.min.js?ver=2.14.1.0.2.14.1.0.0.1" id="vk-filter-search-result-js"></script>
@@ -2520,21 +2455,7 @@
       /* ]]> */
     </script>
     <script type="text/javascript" src="./wp-content/themes/lightning/_g2/assets/js/lightning.min.js?ver=15.29.4" id="lightning-js-js"></script>
-    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LdBcfwqAAAAAA6d1AavLm4JmGlIq3HVBhhopFCW&amp;ver=3.0" id="google-recaptcha-js"></script>
     <script type="text/javascript" src="./wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
-    <script type="text/javascript" id="wpcf7-recaptcha-js-before">
-      /* <![CDATA[ */
-      var wpcf7_recaptcha = {
-        sitekey: "6LdBcfwqAAAAAA6d1AavLm4JmGlIq3HVBhhopFCW",
-        actions: {
-          homepage: "homepage",
-          contactform: "contactform",
-        },
-      };
-      //# sourceURL=wpcf7-recaptcha-js-before
-      /* ]]> */
-    </script>
-    <script type="text/javascript" src="./wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.1.5" id="wpcf7-recaptcha-js"></script>
     <script id="wp-emoji-settings" type="application/json">
       { "baseUrl": "https://s.w.org/images/core/emoji/17.0.2/72x72/", "ext": ".png", "svgUrl": "https://s.w.org/images/core/emoji/17.0.2/svg/", "svgExt": ".svg", "source": { "concatemoji": "//wp-includes/js/wp-emoji-release.min.js?ver=6.9.4" } }
     </script>
