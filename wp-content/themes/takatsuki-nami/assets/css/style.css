@@ -170,9 +170,9 @@
 
 /* 1. 吹き出し・コピー */
 .anim-item-fukidashi {
-  width: 25%;
-  left: 37.5%;
-  top: 6%;
+  width: 28%;
+  left: 36%;
+  top: 5%;
   animation: customPopIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.2s forwards;
 }
 @media screen and (min-width: 1200px) {
@@ -184,7 +184,7 @@
 .anim-item-textbox {
   width: 240px;
   left: calc(50% - 120px);
-  bottom: 2%;
+  bottom: 4%;
   font-size: 1.2rem;
   text-align: center;
   line-height: 1.4;
@@ -201,16 +201,7 @@
   margin: 0.2rem 0.5rem;
 }
 
-/* 2. 高月ナミさん */
-.anim-item-nami {
-  width: 9%;
-  left: 58%;
-  bottom: 0;
-  z-index: 1;
-  animation: customPopIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.4s forwards;
-}
-
-/* 3. キャラクター */
+/* 2. キャラクター */
 .anim-item-team {
   width: 26%;
   left: 13%;
@@ -243,7 +234,7 @@
   }
 }
 
-/* 4. 背景パーツ */
+/* 3. 背景パーツ */
 .anim-item-monoqlo {
   width: 30.7%;
   left: 1%;
@@ -265,7 +256,7 @@
   animation: customFadeUp 1.2s ease-out 1.7s forwards;
 }
 
-/* 5. キラキラ */
+/* 4. キラキラ */
 .anim-item-blink1 {
   width: 3%;
   left: 36%;
@@ -296,17 +287,13 @@
   background-color: #FFF0F0;
 }
 #firstview-sp .sp-fv__fukidashi {
-  padding: 0.5rem 1rem 0;
+  padding: 0.75rem 1rem 0.2rem;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 #firstview-sp .sp-fv__fukidashi-img {
-  width: 75%;
-  display: block;
-}
-#firstview-sp .sp-fv__nami {
-  width: 20%;
+  width: min(86%, 420px);
   display: block;
 }
 #firstview-sp .sp-fv__tags {
@@ -983,9 +970,6 @@
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1191px) {
-  .anim-item-nami {
-    left: 62%;
-  }
   .top__item {
     font-size: 0.8rem;
   }
